@@ -1,0 +1,21 @@
+.navDropdown_sub {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    text-align: right;
+    box-shadow: 0 0 .5rem 0 rgba(0, 0, 0, .5);
+    background-color: var(--themeColorDark);
+    padding: .4rem;
+    border-radius: 2px;
+    margin-top: .4rem;
+    /*translateX is handled in js*/
+}
+
+.navDropdown_sub > a {
+    margin: 0;
+    padding: 0;
+}
+
+.navDropdown:hover > .navDropdown_sub {
+    display: flex;
+}
