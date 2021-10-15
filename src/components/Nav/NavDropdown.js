@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./NavDropdown.css";
 
 function NavDropdown({main, children, offset=10}) {

@@ -1,12 +1,27 @@
 .nav {
     display: flex;
     width: 100%;
-    border: 1px solid black;
     font-size: .5rem;
     justify-content: right;
     padding: 0 .2rem;
     align-items: center;
     height: 3rem;
+    position: fixed;
+    transform: translateZ(0);
+    z-index: 100;
+    opacity: 1;
+    transition:
+        background-color .2s,
+        opacity .4s;
+}
+
+.nav--opaque {
+    background-color: black;
+    box-shadow: 0 0 4px 0 var(--themeColorDarkNeg10);
+}
+
+.nav--hidden {
+    opacity: 0;
 }
 
 .nav a {
@@ -15,6 +30,10 @@
     margin-right: 1rem;
     transition: color .3s;
     padding: .5rem 0rem;
+}
+
+a.nav_link--active {
+    color: var(--themeColorPrimary);
 }
 
 .nav a:hover {
@@ -31,6 +50,7 @@
 }
 
 .nav_contactbutton:hover {
+    cursor: pointer;
     background-color: var(--themeColorPrimary);
     border-color: var(--themeColorPrimary);
     color: var(--themeColorDark);

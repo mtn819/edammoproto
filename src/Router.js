@@ -3,10 +3,10 @@ import {
   BrowserRouter,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 import Nav from "./components/Nav/Nav";
+import Home from "./pages/Home/Home";
 
 function Router() {
   return (
@@ -36,7 +36,7 @@ function Router() {
         </Route>
 
         <Route path="/">
-          Home
+          <Home/>
         </Route>
 
       </Switch>
