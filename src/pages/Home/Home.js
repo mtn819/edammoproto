@@ -12,6 +12,7 @@ import {
     PersonOutlined,
 } from '@mui/icons-material';
 import Carousel from 'react-elastic-carousel';
+import Particles from "react-particles-js";
 
 function Home() {
     useEffect(() => {
@@ -163,7 +164,6 @@ function Home() {
             <div data-aos="fade" className="homeCarousel">
                 <Carousel
                     showArrows={false}
-                    enableAutoPlay
                 >
                     <div className="homeCarousel_item">
                         <div className="homeCarousel_card homeCarousel_cardWinslow">
@@ -182,6 +182,25 @@ function Home() {
                         </div>
                     </div>
                 </Carousel>
+            </div>
+
+            {/**CONTACT */}
+            <div data-aos="fade" className="homeContact">
+                <div className="homeContact_nonBg">
+                    <h3>Unlock the Value of your Data</h3>
+                    <form action="ActionNotYetHookedUp" method="post">
+                        <label htmlFor="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname"/>
+                        <label htmlFor="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
+                        <label htmlFor="emailaddress">Email Address</label>
+                        <input type="email" id="emailaddress" name="emailaddress"/>
+                        <button type="submit">Contact Us</button>
+                    </form>
+                </div>
+                <Particles
+                    className="homeContact_particles"
+                />
             </div>
         </div>
 

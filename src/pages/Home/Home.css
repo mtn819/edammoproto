@@ -22,7 +22,7 @@ SPLASH
 */
 
 .homeSplash {
-    height: 100vh;
+    min-height: 100vh;
     padding: 3.5rem 2rem;
 }
 
@@ -211,7 +211,7 @@ ADVANTAGE_TABLE
 }
 
 .homeAdvantage_table p:not(.homeAdvantage_tableHeader) {
-    background-color: rgba(50, 50, 50);
+    background-color: rgba(60, 60, 60);
     border-top: 2px solid var(--themeColorDarkNeg10);
     width: 4rem;
 }
@@ -242,7 +242,8 @@ LET
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(50, 50, 50);
+    background-color: rgba(75, 75, 75);
+    padding: 1rem;
 }
 
 .homeLet_leftText {
@@ -288,7 +289,7 @@ LET
 
 .homeLet_card {
     width: 60%;
-    border: 1px solid black;
+    box-shadow: 0 0 8px 0 rgba(40, 40, 40);
     padding: .6rem;
     background-color: var(--themeColorDarkNeg10);
     border-radius: 8px;
@@ -318,14 +319,13 @@ CAROUSEL
 */
 
 .homeCarousel {
-    max-width: 1000px;
-    background-color: var(--themeColorDarkNeg10);
+    max-width: 800px;
+    background-image: url("./res/carouselbg.webp");
     margin: auto;
     margin-bottom: 4rem;
 }
 
 .homeCarousel_card {
-    background-color: var(--themeColorDarkNeg10);
     margin: 1rem auto;
     color: var(--themeColorDark);
     background-color: #ACABAB;
@@ -386,4 +386,84 @@ CAROUSEL
     background-color: var(--themeColorDarkNeg10);
     box-shadow: 0 0 .1rem 0 black;
     border: 1px solid white;
+}
+
+/*
+CONTACT
+*/
+
+.homeContact {
+}
+
+.homeContact_nonBg {
+    position: absolute;
+    height: 13rem; /*THIS HAS TO MATCH .homeContact_particles HEIGHT*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContact_nonBg > h3 {
+    max-width: 15ch;
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+.homeContact_nonBg > form {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    background-color: var(--themeColorDark);
+    border: 2px solid gray;
+    width: 15rem;
+    height: calc(inherit - 2rem);
+}
+
+.homeContact_nonBg > form > label {
+    font-size: .5rem;
+    margin-bottom: .2rem;
+    color: #ACABAB;
+    font-weight: bold;
+}
+
+.homeContact_nonBg > form > input,
+.homeContact_nonBg > form > textarea {
+    background-color: inherit;
+    border: 2px solid gray;
+    border-radius: 4px;
+    color: #ACABAB;
+    margin-bottom: .7rem;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+}
+
+.homeContact_nonBg > form > input:focus,
+.homeContact_nonBg > form > textarea:focus {
+    border-color: skyblue;
+    outline: skyblue;
+}
+
+.homeContact_nonBg > form > input {
+    height: 1rem;
+}
+
+.homeContact_nonBg > form > button {
+    background-color: var(--themeColorPrimary);
+    border: none;
+    height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.homeContact_nonBg > form > button:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+.homeContact_particles {
+    height: 13rem;
+    width: 100%;
+    background-color: black;
 }

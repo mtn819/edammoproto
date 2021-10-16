@@ -1,0 +1,135 @@
+.rnd {
+    padding-top: 3rem;
+}
+
+/*
+BANNER
+*/
+
+.rndBanner {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--themeColorDarkNeg10);
+    margin-bottom: 1rem;
+}
+
+.rndBanner > h1 {
+    width: fit-content;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+/*
+MID
+*/
+
+.rndMid_topText {
+    text-align: center;
+    font-size: .6rem;
+}
+
+.rndMid_papers {
+    padding: 1rem;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.rndMid_papers > * {
+    width: 100%;
+}
+
+.rndMid_col {
+    margin: 0 1rem;
+}
+
+.rndMid_colContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+
+.rndMid_gist > img {
+    max-width: 100%;
+    margin-bottom: .2rem;
+}
+
+.rndMid_gist > h3 {
+    font-size: .7rem;
+    max-width: 25ch;
+    margin-bottom: .7rem;
+}
+
+.rndMid_gist > p {
+    font-size: .5rem;
+}
+
+.rndMid_readPaper {
+    font-size: .5rem;
+    background-color: var(--themeColorPrimary);
+    width: fit-content;
+    padding: .2rem .55rem;
+    margin: 0 auto;
+    transition: color .2s;
+}
+
+.rndMid_readPaper:hover {
+    color: gray;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/*
+BOTTOM
+*/
+
+.rndBottom {
+    display: flex;
+    background-color: var(--themeColorDarkNeg10);
+    align-items: center;
+    padding: 1rem;
+}
+
+.rndBottom > * {
+    width: 100%;
+}
+
+.rndBottom_col > * {
+    width: 60%;
+    margin: 0 1rem;
+}
+
+.rndBottom_text {
+    margin-left: auto;
+}
+
+.rndBottom_text > h3 {
+    font-size: .7rem;
+    max-width: 25ch;
+    margin-bottom: .7rem;
+}
+
+.rndBottom_text > p {
+    font-size: .5rem;
+}
+
+.rndBottom_video > iframe {
+    width: 100%
+}
+
+.rndBottom_readPaper {
+    font-size: .5rem;
+    background-color: var(--themeColorPrimary);
+    width: fit-content;
+    padding: .2rem .55rem;
+    margin: 0 auto;
+    transition: color .2s;
+}
+
+.rndBottom_readPaper:hover {
+    color: gray;
+    transform: scale(1.01);
+    cursor: pointer;
+}

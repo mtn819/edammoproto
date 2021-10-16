@@ -7,6 +7,8 @@ import {
 
 import Nav from "./components/Nav/Nav";
 import Home from "./pages/Home/Home";
+import RnD from "./pages/RnD/RnD";
+import Services from "./pages/Services/Services";
 
 function Router() {
   return (
@@ -28,11 +30,11 @@ function Router() {
         </Route>
 
         <Route path="/services">
-          Services
+          <Services/>
         </Route>
 
         <Route path="/rnd">
-          R&amp;D
+          <RnD/>
         </Route>
 
         <Route path="/">
