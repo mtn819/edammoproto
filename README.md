@@ -41,7 +41,7 @@ Stores each page.
 - This project avoids component creation within reason to offer greater flexibility; instead, it tries to make CSS and BEM do as much of the heavy lifting as possible.
 
 ## UI Libraries Employed
-- [Material UI (icons, in particular)](https://mui.com/components/material-icons/)
+- [Material UI (icons, in particular)](https://mui.com/)
 - [React Elastic Carousel](https://www.npmjs.com/package/react-elastic-carousel)
 - [Particles.js](https://www.npmjs.com/package/react-particles-js)
 - [aos](https://www.npmjs.com/package/aos)
