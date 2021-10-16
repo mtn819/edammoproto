@@ -1,0 +1,141 @@
+.servicesSub {
+    padding-top: 3rem;
+}
+
+/*
+BANNER
+*/
+
+.servicesSubBanner {
+    margin: 1rem 2rem .6rem 2rem;
+    background-color: var(--themeColorDarkNeg10);
+    padding: 2.3rem 1.1rem .6rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.servicesSubBanner > h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.servicesSubBanner > p {
+    font-family: 'Yantramanav', sans-serif;
+    max-width: 58ch;
+    font-size: .6rem;
+    margin-bottom: .5rem;
+}
+
+.servicesSubBanner > a {
+    text-decoration: none;
+}
+
+.servicesSubBanner_demo {
+    border: 2px solid var(--themeColorPrimary);
+    display: flex;
+    align-items: center;
+    padding: .2rem .6rem;
+    color: var(--themeColorPrimary);
+    background-color: var(--themeColorDark);
+    transition:
+        background-color .4s,
+        color .4s;
+}
+
+.servicesSubBanner_demo:hover {
+    background-color: var(--themeColorPrimary);
+    color: black;
+    cursor: pointer;
+}
+
+.servicesSubBanner_demo > p {
+    font-size: .45rem;
+    font-family: 'Yantramanav', sans-serif;
+    margin-right: .2rem;
+}
+
+.servicesSubBanner_demo > svg {
+    font-size: .4rem;
+}
+
+/*
+USECASES
+*/
+
+.servicesSubUsecases {
+    background-color: var(--themeColorPrimary);
+    padding: 3.5rem 3rem 2rem 3rem;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.servicesSubUsecases > h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.servicesSubUsecases_row {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.servicesSubUsecases_row > * {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .8rem .5rem 1rem .5rem;
+    margin: .1rem;
+}
+
+.servicesSubUsecases_light {
+    background-color: var(--themeColorAccentNeg10);
+}
+
+.servicesSubUsecases_dark {
+    background-color: var(--themeColorDarkNeg10);
+}
+
+.servicesSubUsecases_card > h3 {
+    font-size: 1rem;
+    width: fit-content;
+    margin-bottom: .5rem;
+}
+
+.servicesSubUsecases_card > p {
+    font-size: .65rem;
+    max-width: 80%;
+    width: fit-content;
+}
+
+/*
+BOTTOM
+*/
+
+.servicesSubBottom {
+    padding: 3rem;
+    text-align: center;
+}
+
+.servicesSubBottom > * {
+    margin: auto;
+}
+
+.servicesSubBottom > h2 {
+    font-size: 1.2rem;
+    max-width: 30ch;
+    margin-bottom: 1.8rem;
+}
+
+.servicesSubBottom > p {
+    font-size: .5rem;
+    max-width: 65ch;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}

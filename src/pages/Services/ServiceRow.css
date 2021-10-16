@@ -1,0 +1,86 @@
+.servicesRow {
+    display: flex;
+    border: 1px solid gray;
+}
+
+.servicesRow_colL {
+    width: 20%;
+    border-right: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesRow_iconCard {
+    background-color: var(--themeColorAccentNeg10);
+    width: 3rem;
+    height: 3rem;
+    padding: .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgb(30, 30, 30);
+}
+
+.servicesRow_iconCard > svg {
+    font-size: 1.6rem;
+    color: var(--themeColorDarkNeg10);
+    margin-bottom: .4rem;
+}
+
+.servicesRow_cardHr {
+    width: 60%;
+    height: 5px;
+    border-radius: 3px;
+    border-bottom: .5px solid gray;
+    background-color: var(--themeColorDarkNeg10);
+}
+
+.servicesRow_colR {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.servicesRow_text {
+    max-width: 60%;
+    padding: 1rem;
+}
+
+.servicesRow_text > h3 {
+    font-size: .55rem;
+    font-weight: 600;
+    margin-bottom: .4rem;
+}
+
+.servicesRow_text > p {
+    font-size: .50rem;
+}
+
+.servicesRow_learnMoreSubcol {
+    width: 40%;
+    padding: 2rem;
+}
+
+.servicesRow_learnMoreSubcol > a {
+    text-decoration: none;
+}
+
+.servicesRow_learnMore {
+    font-size: .45rem;
+    background-color: var(--themeColorPrimary);
+    width: fit-content;
+    padding: .3rem .7rem;
+    transition: opacity .2s;
+    color: var(--themeColorDark);
+    font-family: 'Yantramanav', sans-serif;
+    letter-spacing: 2px;
+}
+
+.servicesRow_learnMore:hover {
+    opacity: .8;
+    transform: scale(1.01);
+    cursor: pointer;
+}

@@ -9,6 +9,10 @@ import Nav from "./components/Nav/Nav";
 import Home from "./pages/Home/Home";
 import RnD from "./pages/RnD/RnD";
 import Services from "./pages/Services/Services";
+import ServicesPredictiveModeling from "./pages/Services/ServicesPredictiveModeling";
+import ServicesAcceleratedBusinessIntelligence from "./pages/Services/ServicesAcceleratedBusinessIntelligence";
+import ServicesPartnerProductDevelopment from "./pages/Services/ServicesPartnerProductDevelopment";
+import ServicesAiEnabledAutomation from "./pages/Services/ServicesAiEnabledAutomation";
 
 function Router() {
   return (
@@ -29,12 +33,32 @@ function Router() {
           Industries
         </Route>
 
+        <Route path="/services/aienabledautomation">
+          <ServicesAiEnabledAutomation/>
+        </Route>
+
+        <Route path="/services/partnerproductdevelopment">
+          <ServicesPartnerProductDevelopment/>
+        </Route>
+
+        <Route path="/services/acceleratedbusinessintelligence">
+          <ServicesAcceleratedBusinessIntelligence/>
+        </Route>
+
+        <Route path="/services/predictivemodeling">
+          <ServicesPredictiveModeling/>
+        </Route>
+
         <Route path="/services">
           <Services/>
         </Route>
 
         <Route path="/rnd">
           <RnD/>
+        </Route>
+
+        <Route path="/getstarted">
+          GET STARTED
         </Route>
 
         <Route path="/">

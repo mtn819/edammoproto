@@ -26,13 +26,14 @@ STEPS
     padding: 0 1rem;
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     margin: auto;
     transform: translateY(-25%);
+    align-items: center;
 }
 
 .servicesSteps > * {
-    margin: 0 .2rem;
+    margin: 0 .15rem;
     width: 100%;
     height: fit-content;
 }
@@ -43,8 +44,8 @@ STEPS
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    aspect-ratio: 1/.9;
-    padding: 1.5rem;
+    padding: .5rem;
+    padding-top: 1.5rem;
     padding-bottom: .35rem;
     min-height: 100%;
     box-shadow: 0 0 .5rem 0 var(--themeColorDark);
@@ -60,9 +61,75 @@ STEPS
 
 .servicesSteps_cardText > h3 {
     font-size: .75rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 14%;
+    font-weight: 500;
 }
 
 .servicesSteps_cardText > p {
     font-size: .6rem;
+    min-height: 1.8rem;
+    font-weight: 500;
+}
+
+/*
+TABLE
+*/
+
+.servicesTable {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.servicesTable_bottomRow {
+    display: flex;
+    border: 1px solid gray;
+}
+
+.servicesTable_bottomText {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-right: 1px solid gray;
+    background-color: var(--themeColorDarkNeg10);
+}
+
+.servicesTable_bottomText > h3 {
+    max-width: 17ch;
+    font-size: .85rem;
+    text-align: center;
+}
+
+.servicesTable_bottomRight {
+    width: 60%;
+    padding: 4rem;
+}
+
+.servicesTable_bottomRight > p {
+    font-size: .47rem;
+    max-width: 46ch;
+    opacity: .6;
+    margin-bottom: 1rem;
+}
+
+.servicesTable_bottomRight > a {
+    text-decoration: none;
+}
+
+.servicesTable_bottomDemo {
+    font-size: .45rem;
+    background-color: var(--themeColorPrimary);
+    width: fit-content;
+    padding: .3rem .7rem;
+    transition: opacity .2s;
+    color: var(--themeColorDark);
+    font-family: 'Yantramanav', sans-serif;
+    letter-spacing: 2px;
+}
+
+.servicesTable_bottomDemo:hover {
+    opacity: .8;
+    transform: scale(1.01);
+    cursor: pointer;
 }

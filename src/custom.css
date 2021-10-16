@@ -10,7 +10,7 @@
 :root {
   --themeColorPrimary: #E84A43;
   --themeColorAccent: rgb(185, 192, 213);
-  --themeColorAccentNeg10: rgb(100, 100, 110);
+  --themeColorAccentNeg10: rgb(95 104 131);
   --themeColorDark: rgba(50, 50, 50);
   --themeColorDarkNeg10: rgba(75, 75, 75);
 
