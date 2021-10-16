@@ -64,10 +64,6 @@
     padding: 2rem;
 }
 
-.servicesRow_learnMoreSubcol > a {
-    text-decoration: none;
-}
-
 .servicesRow_learnMore {
     font-size: .45rem;
     background-color: var(--themeColorPrimary);

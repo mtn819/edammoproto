@@ -25,7 +25,9 @@ function RnD() {
                                 <h3>A novel ELM ensemble for time series prediction</h3>
                                 <p>This paper presents a novel methodology for time series prediction. It is based on Extreme Learning Machines and an adaptive ensemble techniques. It is tested successfully on the CIF 2016 competition datasets which are composed of 72 time series in total. Among those, 48 time series are artificial with each having 108 training data points and 12 testing points. So for each artificial time series, there are 120 values, which is more than that of the rest 24 real time series.</p>
                             </div>
-                            <div className="rndMid_readPaper">Read Paper</div>
+                            <a href="https://www.researchgate.net/publication/334125474_A_Novel_ELM_Ensemble_for_Time_Series_Prediction">
+                                <div className="rndMid_readPaper">Read Paper</div>
+                            </a>
                         </div>
                     </div>
                     <div className="rndMid_col">
@@ -35,7 +37,9 @@ function RnD() {
                                 <h3>ELM-SOM+: A continuous mapping for visualization</h3>
                                 <p>This paper presents a novel dimensionality reduction technique based on ELM and SOM: ELM-SOM+. This technique preserves the intrinsic quality of Self-Organizing Map (SOM): it is nonlinear and suitable for big data. It also brings continuity to the projection using two Extreme Learning Machine (ELM) models, the first one to perform the dimensionality reduction and the second one to perform the reconstruction. ELM-SOM+ is tested successfully on nine diverse datasets. Regarding reconstruction error, the new methodology shows considerable improvement over SOM and brings continuity.</p>
                             </div>
-                            <div className="rndMid_readPaper">Read Paper</div>
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231219310112">
+                                <div className="rndMid_readPaper">Read Paper</div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -51,8 +55,10 @@ function RnD() {
                 </div>
                 <div className="rndBottom_col">
                     <div className="rndBottom_video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/knxJybDcX38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div className="rndBottom_readPaper">Read Paper</div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/knxJybDcX38" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <a href="https://ieeexplore.ieee.org/document/9207673">
+                            <div className="rndBottom_readPaper">Read Paper</div>
+                        </a>
                     </div>
                 </div>
             </div>

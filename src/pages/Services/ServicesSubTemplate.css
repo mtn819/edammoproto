@@ -28,10 +28,6 @@ BANNER
     margin-bottom: .5rem;
 }
 
-.servicesSubBanner > a {
-    text-decoration: none;
-}
-
 .servicesSubBanner_demo {
     border: 2px solid var(--themeColorPrimary);
     display: flex;

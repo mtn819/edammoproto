@@ -41,10 +41,6 @@ SPLASH
     animation-duration: 3s;
 }
 
-.homeSplash > a {
-    text-decoration: none;
-}
-
 .homeSplash_learnMore {
     color: var(--themeColorDark);
     background-color: var(--themeColorPrimary);

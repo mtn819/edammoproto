@@ -113,10 +113,6 @@ TABLE
     margin-bottom: 1rem;
 }
 
-.servicesTable_bottomRight > a {
-    text-decoration: none;
-}
-
 .servicesTable_bottomDemo {
     font-size: .45rem;
     background-color: var(--themeColorPrimary);
