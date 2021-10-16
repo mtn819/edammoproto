@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Edammo Prototype
+Implementation of [this site](https://sapphireratner.wixsite.com/my-site/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Contents
+- [How to install](#howtoinstall)
+- [Structure](#structure)
+- [Additional Notes](#additionalnotes)
 
-## Available Scripts
+# Installation <a id="howtoinstall"></a>
+    # go into an empty folder you like
+    git pull https://github.com/mtn819/edammoproto.git
+    npm install
 
-In the project directory, you can run:
+    # to run
+    npm start
 
-### `npm start`
+# Structure <a id="structure"></a>
+This project was built on top of [Create React App](https://create-react-app.dev/), which is reflected in its structure.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## src/index.js
+Mounts the application.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## src/Router.js
+Routes the project via [React Router](https://reactrouter.com/web/guides/quick-start).
 
-### `npm test`
+## src/custom.css
+Defines much of the shared theming elements about the site, like palette variables.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## src/components
+Stores things reused across entire webpage. Also designated for heavily reused utility functions.
 
-### `npm run build`
+## src/pages
+Stores each page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Additional Notes <a id="additionalnotes"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## CSS
+- This project largely follows the [BEM](http://getbem.com/) convention.
+- Class definitions are avoided where tags are already significantly descriptive (like &lt;h1&gt;, which often clearly denotes a header).
+- Structure of a class looks like pageBlock_element--modifier.
+- This project avoids component creation within reason to offer greater flexibility; instead, it tries to make CSS and BEM do as much of the heavy lifting as possible.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## UI Libraries Employed
+- [Material UI (icons, in particular)](https://mui.com/components/material-icons/)
+- [React Elastic Carousel](https://www.npmjs.com/package/react-elastic-carousel)
+- [Particles.js](https://www.npmjs.com/package/react-particles-js)
+- [aos](https://www.npmjs.com/package/aos)
