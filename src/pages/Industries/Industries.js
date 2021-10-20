@@ -43,6 +43,26 @@ function Industries() {
                     text="Aviation"
                     href="/industries/aviation"
                 />
+                <IndustriesCard
+                    imgSrc={onebyone}
+                    text="Aviation"
+                    href="/industries/aviation"
+                />
+                <IndustriesCard
+                    imgSrc={onebyone}
+                    text="Aviation"
+                    href="/industries/aviation"
+                />
+                <IndustriesCard
+                    imgSrc={onebyone}
+                    text="Aviation"
+                    href="/industries/aviation"
+                />
+                <IndustriesCard
+                    imgSrc={onebyone}
+                    text="Aviation"
+                    href="/industries/aviation"
+                />
             </div>  
         </div>
     )
