@@ -1,0 +1,60 @@
+.industries {
+    padding-top: var(--navHeight);
+}
+
+/*
+BANNER
+*/
+
+.industriesBanner {
+    margin-bottom: 1rem;
+}
+
+.industriesBanner_top {
+    height: 6rem;
+    background-color: black;
+}
+
+.industriesBanner_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--themeColorAccentNeg10);
+}
+
+.industriesBanner_bottom > h1 {
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.industriesBanner_bottomHr {
+    height: 2px;
+    width: 1.2rem;
+    background-color: white;
+    margin-bottom: .2rem;
+}
+
+.industriesBanner_bottom > p {
+    font-size: .6rem;
+    max-width: 84ch;
+}
+
+/*
+CARDS
+*/
+
+.industriesCards {
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.industriesCards > * {
+    width: 30%;
+    margin: 4px;
+}

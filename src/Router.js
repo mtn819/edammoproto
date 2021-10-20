@@ -13,6 +13,7 @@ import ServicesPredictiveModeling from "./pages/Services/ServicesPredictiveModel
 import ServicesAcceleratedBusinessIntelligence from "./pages/Services/ServicesAcceleratedBusinessIntelligence";
 import ServicesPartnerProductDevelopment from "./pages/Services/ServicesPartnerProductDevelopment";
 import ServicesAiEnabledAutomation from "./pages/Services/ServicesAiEnabledAutomation";
+import Industries from "./pages/Industries/Industries";
 
 function Router() {
   return (
@@ -30,7 +31,7 @@ function Router() {
         </Route>
 
         <Route path="/industries">
-          Industries
+          <Industries/>
         </Route>
 
         <Route path="/services/aienabledautomation">

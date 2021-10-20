@@ -1,0 +1,33 @@
+.industriesCard {
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+    background-color: black; /*TEMP*/
+    position: relative;
+}
+
+.industriesCard > img {
+    width: 100%;
+    display: block;
+}
+
+.industriesCard > p {
+    color: black;
+    font-size: .7rem;
+    position: absolute;
+    width: fit-content;
+    background-color: rgba(200, 200, 200, .5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+}
+
+.industriesCard:hover > p {
+    display: flex;
+}

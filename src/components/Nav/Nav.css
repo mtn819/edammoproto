@@ -5,7 +5,7 @@
     justify-content: right;
     padding: 0 .2rem;
     align-items: center;
-    height: 3rem;
+    height: var(--navHeight);
     position: fixed;
     transform: translateZ(0);
     z-index: 100;

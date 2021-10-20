@@ -1,5 +1,5 @@
 .servicesSub {
-    padding-top: 3rem;
+    padding-top: var(--navHeight);
 }
 
 /*
